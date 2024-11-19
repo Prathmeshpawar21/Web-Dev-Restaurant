@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar_container {
+    background-color: rgb(255, 247, 236);
+    box-shadow: 0px 0px 20px 0px #ffc107;
+    position: sticky;
+    padding: 0px 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar {
+    height: 3.5vw;
+    width: 3vw;
+    margin-top: 8px;
+}
+
+.logo {
+    height: 4.5vw;
+    width: 12vw;
+}
+
+.midone {
+    display: flex;
+    gap: 118px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    max-width: 1300px;
+    margin: 30px auto;
+}
+
+.midonesecond {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    gap: 10px;
+}
+
+.mindonetag {
+    background-color: #62cc70;
+    align-self: flex-start;
+    padding: 3px 4px;
+    border-radius: 2px;
+    font-size: 1.12vw;
+}
+
+.midoneh1 {
+    font-size: 2.2vw;
+}
+
+.midonepara {
+    font-size: 1.1vw;
+}
+
+button {
+    border: none;
+    padding: 10px;
+
+}
+
+.btn {
+    border: none;
+    background-color: #ffc107;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.btn:hover {
+    border: none;
+    background-color: #ffcb2d;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/*secondsection*/
+
+.secondsection {
+    display: flex;
+    max-width: 80%;
+    margin: 45px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: outset 10px 10px 10px red;
+    flex-wrap: wrap;
+
+
+}
+.allsecsec{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(199, 199, 199); */
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px #c3c2c8;
+    width: 300px;
+}
+.secondsecimg {
+    height: 60px;
+    width: 112px;
+    margin: 10px;
+}
+
+.line{
+    border: 1px solid gray;
+}
+
+/*Menu*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    align-items: center;
+
+}
+.menuh2 {
+    background-color: #62cc70;
+    padding: 0.3vw 0.3vw;
+    border-radius: 2px;
+    font-size: 1.12vw;
+    margin: 20px;
+    font-size: 18px;
+    margin: 30px;
+}
+.menuh3 {
+    font-size: 22px;
+}
+
+/*grid seciton*/
+.gridsection{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "I1 I1 I2 I3" 
+    "I1 I1 I2 I7" 
+    "I4 I5 I6 I7";
+    justify-items: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.gridimg1{
+    grid-area: I1;
+}
+.gridimg2{
+    grid-area: I2;
+}
+.gridimg3{
+    grid-area: I3;
+}
+.gridimg4{
+    grid-area: I4;
+}
+.gridimg5{
+    grid-area: I5;
+}
+.gridimg6{
+    grid-area: I6;
+}
+.gridimg7{
+    grid-area: I7;
+}
+
+.gridimgs{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.gridimgs:hover{
+    border-radius: 10px;
+    transform: scale(1.030);
+    transition: 0.4s ease-in-out;
+}
+
+
+/*footer section*/
+footer{
+    background-color: #ffd5b7
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+
+
+
+.secondline li{
+list-style: none;
+}
+.secondline h3{
+    margin: 10px 0px;
+}
+
+
+.thirdline li{
+list-style: none;
+}
+.thirdline h3{
+    margin: 10px 0px;
+}
+
+
+
+.fourthline li{
+list-style: none;
+}
+.fourthline h3{
+    margin: 10px 0px;
+}
+
+.fourthline input {
+    border: none;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+
+
+
+.fa-brands {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .midone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mindonetag {
+        font-size: 2.12vw;
+    }
+
+    .midoneimg {
+        width: 85vw;
+    }
+
+    .midone {
+        gap: 45px;
+    }
+
+    .midoneh1 h1 {
+        font-size: 6vw;
+    }
+
+    .midonepara {
+        font-size: 2.1vw;
+    }
+
+    .btn {
+        height: 6vw;
+        padding: 5px;
+        font-size: 3vw;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
