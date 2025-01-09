@@ -26,24 +26,13 @@ The Restaurant Website is a clean, modern, and responsive web application design
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/restaurant-website.git
+   git clone https://github.com/Prathmeshpawar21/Web-Dev-Restaurant.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd restaurant-website
+   Web-Dev-Restaurant
    ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Run the development server:
-   ```bash
-   npm start
-   ```
-5. Open your browser and visit:
-   ```
-   http://localhost:3000
-   ```
+
 
 ## Deployment
 
